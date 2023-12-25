@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./dashboard.css">
+    <script src="./dashboard.js" defer></script>
+</head>
+<body>
+    <div class="upper">
+        <h2>Company Metrics</h2>
+        <div class="inner-upper">
+
+            <div class="box">
+                <h2 style="color: greenyellow;">$406,411.29</h2>
+                <p>Total Revenue</p>
+            </div>
+            <div class="box">
+                <h2>$620</h2>
+                <p>Total Jobs Avg</p>
+            </div>
+            <div class="box">
+                <h2>655</h2>
+                <p>Tickets Created</p>
+            </div>
+            <div class="box">
+                <h2>735</h2>
+                <p>Tickets Scheduled</p>
+            </div>
+            <div class="box">
+                <h2 style="color: red;">$110,448.8</h2>
+                <p>Outstanding Amount</p>
+            </div>
+            <div class="box">
+                <h2>105</h2>
+                <p>Memberships Sold</p>
+            </div>
+            <div class="box">
+                <h2>436</h2>
+                <p>Jobs Completed</p>
+            </div>
+            <div class="box">
+                <h2>65</h2>
+                <p>Total Canceled</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="lower">
+        <div class="left-section">
+            <h2>Revenue By Job Location</h2>
+            <div>
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+        <div class="right-section">
+            <h2>Revenue By Job Type</h2>
+            <div>
+                <canvas id="myChart2"></canvas>
+              </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
